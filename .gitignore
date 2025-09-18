@@ -7,6 +7,7 @@ env/
 .env
 .env.*
 .envrc
+env/discogs.env
 
 # ── Python caches & build artifacts
 __pycache__/
