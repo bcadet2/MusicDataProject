@@ -1,3 +1,21 @@
+# local env + caches
+.venv/
+.env
+.env.*
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+# data and outputs (large / regenerable)
+data/raw/
+data/staged/
+data/logs/
+outputs/
+# editors
+.vscode/
+.idea/
+EOF
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
