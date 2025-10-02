@@ -20,7 +20,7 @@ RAW_RELEASES_DIR = BASE_DIR / "data" / "raw" / "island_releases"
 RAW_RELEASES_DIR.mkdir(parents=True, exist_ok=True)
 
 # include common Island variants so we validate after fetch
-ISLAND_LABEL_IDS = {8377, 48794, 27385, 27585, 93244}
+ISLAND_LABEL_IDS = {8377, 48794, 27385, 27585, 93244, 63313}
 
 def make_session() -> requests.Session:
     if not TOKEN:
