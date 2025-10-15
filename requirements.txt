@@ -1,0 +1,7 @@
+# Minimal Core Dependencies for Music Data Project
+# Install with: pip install -r requirements-minimal.txt
+
+requests>=2.32.0
+python-dotenv>=1.0.0
+urllib3>=2.3.0
+

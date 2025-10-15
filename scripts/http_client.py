@@ -25,4 +25,3 @@ def make_session(user_agent: str, token: str) -> requests.Session:
     })
 
     return session
-
